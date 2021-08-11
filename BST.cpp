@@ -218,8 +218,6 @@ int main(){
     int Pre[]={30,20,10,15,25,40,50,45};
     int n=sizeof(Pre)/sizeof(Pre[0]);
 
-
-
     // insert(9);
     // insert(15);
     // insert(5);
@@ -231,6 +229,7 @@ int main(){
     // insert(6);
     // Rinsert(root,10);
     // Delete(root,3);
+
     createPre(Pre, n);
     printf("Inoder = ");
     inOrder(root);
